@@ -1,0 +1,8 @@
+#!/bin/bash
+mat () {
+a=$1
+b=$2
+c=$(( a -b ))
+echo $c
+}
+mat $1 $2

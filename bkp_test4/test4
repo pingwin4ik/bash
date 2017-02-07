@@ -1,0 +1,20 @@
+#!/bin/bash
+echo "vvedite A"
+read a
+echo "Vvedite B"
+read b
+echo "VVedite C"
+read c
+s=$a
+if [ $b -lt $s ]
+then 
+s=$b
+fi
+if [ $c -lt $s ]
+then
+s=$c
+fi
+echo "Minimalnoe iz $a $b $c is $s"
+
+
+

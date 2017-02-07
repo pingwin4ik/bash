@@ -1,0 +1,12 @@
+#!/bin/bash
+op=
+res=
+case "$1" in
+"*") op=$1; res=1;;
+esac
+shift
+for i in $@;do
+((res $op=i))
+done
+echo $res
+exit 0

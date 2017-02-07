@@ -1,0 +1,6 @@
+#!/bin/bash
+for file in * ;do
+if [ -f $file ];then
+mkdir "bkp_$file"
+mv "$file" "bkp_$file/"
+fi done

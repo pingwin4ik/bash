@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i -e 'p' -e 's/o/0/g' LS.dat
